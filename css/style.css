@@ -550,6 +550,10 @@ font-face {
   font-weight: 600;
   font-style: normal;
 }
+.customer-said {
+  border-bottom: 2px solid #ccc;
+  padding-top: 12px;
+}
 .customer-said .title {
   text-align: center;
   font-weight: bold;
@@ -886,6 +890,8 @@ font-face {
   width: 100%;
   max-width: 1020px;
   padding: 40px 20px;
+  padding-bottom: 101px;
+  padding-top: 47px;
   margin: auto;
 }
 .customer-said .testim .wrap #right-arrow {
@@ -985,13 +991,13 @@ font-face {
 }
 .customer-said .testim .cont div .img img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 84px;
+  height: 84px;
   margin: auto;
   border-radius: 50%;
 }
 .customer-said .testim .cont div h2 {
-  color: #ea830e;
+  color: black;
   font-size: 1em;
   margin: 15px 0;
 }
@@ -1002,11 +1008,11 @@ font-face {
   margin: auto;
 }
 .customer-said .testim .cont div .content {
-  padding-top: 33px;
+  padding-top: 26px;
   font-size: 15px;
 }
 .customer-said .testim .cont div .name {
-  margin: 22px 0px 2px 0px;
+  margin: 25px 0px 2px 0px;
 }
 .customer-said .testim .cont div.active .img img {
   -webkit-animation: testim-show 0.5s ease-in-out forwards;
@@ -1062,4 +1068,74 @@ font-face {
   .customer-said .testim .cont div p {
     line-height: 25px;
   }
+}
+.slider-footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.slider-footer div {
+  text-align: center;
+  margin: auto;
+}
+.slider-footer .list-icon {
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+.footer {
+  background-color: #282828;
+}
+.footer .content {
+  border-bottom: 2px solid #444;
+  text-align: center;
+}
+.footer .content .logo img {
+  margin-top: 99px;
+}
+.footer .content .text p {
+  width: 855px;
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+  padding-top: 30px;
+  opacity: 0.4;
+  color: white;
+}
+.footer .content .list-icon {
+  padding-bottom: 44px;
+  margin-top: 25px;
+}
+.footer .content .list-icon i {
+  opacity: 0.4;
+  color: white;
+  margin: 15px;
+}
+.footer .menu {
+  display: grid;
+  padding-top: 63px;
+  padding-bottom: 43px;
+}
+.footer .menu .item {
+  margin-right: 16px;
+  font-size: 13px;
+  opacity: 0.4;
+  color: white;
+  margin-bottom: 12px;
+}
+.footer .menu .item i {
+  margin-right: 10px;
+}
+.footer .menu label {
+  display: block;
+  color: white;
+  margin-bottom: 21px;
+}
+.footer .copy-right {
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
 }
