@@ -1,0 +1,57 @@
+.header {
+    .header-inner {
+        .header-logo {}
+
+        .header-nav {}
+
+        @media (max-width:1023px) {
+            .nav-bars-btn {
+                display: block;
+            }
+
+            .header-nav {
+                .header-nav-pc {
+                    display: none;
+                }
+
+
+                .nav-overlay {
+                    position: fixed;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+            }
+
+            .nav-mobile {
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 320px;
+                max-width: 100%;
+                background-color: @header-footer-color;
+                transform: translateX(-100%);
+                transition: 0.5 all;
+                display: block;
+            }
+
+            .active {
+                transform: translateX(0);
+            }
+
+            .button-close {
+                font-size: 30px;
+                color: #666;
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                display: block;
+            }
+
+
+        }
+    }
+}
