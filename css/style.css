@@ -367,32 +367,39 @@ body {
   display: inline-block;
 }
 .content .content-slider .banner-inner .slider-left {
-  margin-top: 43px;
+  margin-top: 142px;
 }
 .content .content-slider .banner-inner .slider-left .text-Dumbbell-shop h2 {
-  font-size: 43px;
+  font-size: 60px;
   color: white;
 }
 .content .content-slider .banner-inner .slider-left .text-best-body {
-  margin-top: -36px;
+  margin-top: -57px;
 }
 .content .content-slider .banner-inner .slider-left .text-best-body h3 {
-  font-size: 27px;
+  font-size: 40px;
   color: white;
 }
 .content .content-slider .banner-inner .slider-left .text-lorem p {
-  margin-top: -5px;
+  margin-top: -19px;
   color: white;
-  font-size: 13px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+.content .content-slider .banner-inner .slider-left .text-lorem .sub-title {
+  margin-top: -10px;
+  margin-right: 48px;
+  color: white;
+  font-size: 14px;
   opacity: 0.9;
 }
 .content .content-slider .banner-inner .slider-left .btn-shopnow button {
   background: rgba(76, 175, 80, 0);
-  width: 127px;
-  height: 42px;
+  width: 170px;
+  height: 51px;
   color: white;
-  font-size: 12px;
-  margin-top: 33px;
+  font-size: 13px;
+  margin-top: 63px;
   border: 1px solid #ccc;
   opacity: 0.9;
   padding: 10px 20px;
@@ -400,6 +407,8 @@ body {
 .content .content-slider .banner-inner .slider-right {
   float: right;
   display: inline-block;
+  margin-top: 95px;
+  margin-right: -24px;
 }
 .content .content-slider .banner-inner .slider-right img {
   float: right;
@@ -424,12 +433,12 @@ font-face {
 }
 .customer-said {
   border-bottom: 2px solid #ccc;
-  padding-top: 12px;
+  padding-top: 71px;
 }
 .customer-said .title {
   text-align: center;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 36px;
 }
 @-webkit-keyframes "testim-scale" {
   0% {
@@ -762,7 +771,7 @@ font-face {
   width: 100%;
   max-width: 1020px;
   padding: 40px 20px;
-  padding-bottom: 101px;
+  padding-bottom: 104px;
   padding-top: 47px;
   margin: auto;
 }
@@ -805,6 +814,7 @@ font-face {
   right: 10px;
 }
 .customer-said .testim .dots {
+  margin-top: -6px;
   text-align: center;
   width: 100%;
   bottom: 60px;
@@ -874,17 +884,19 @@ font-face {
   margin: 15px 0;
 }
 .customer-said .testim .cont div p {
-  font-size: 12px;
+  padding-top: 4px;
+  font-size: 15px;
   color: black;
   width: 80%;
   margin: auto;
 }
 .customer-said .testim .cont div .content {
-  padding-top: 26px;
-  font-size: 15px;
+  padding-top: 22px;
+  font-size: 17px;
 }
 .customer-said .testim .cont div .name {
-  margin: 25px 0px 2px 0px;
+  font-size: 20px;
+  margin: 29px 0px 2px 0px;
 }
 .customer-said .testim .cont div.active .img img {
   -webkit-animation: testim-show 0.5s ease-in-out forwards;
@@ -942,8 +954,8 @@ font-face {
   }
 }
 .slider-footer {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 44px;
+  margin-bottom: 32px;
   display: flex;
 }
 .slider-footer div {
@@ -951,8 +963,13 @@ font-face {
   margin: auto;
 }
 .slider-footer .list-icon {
-  padding-bottom: 40px;
-  margin-top: 20px;
+  padding-bottom: 44px;
+  margin-top: 30px;
+  font-size: 17px;
+}
+.slider-footer div {
+  margin-left: 27px;
+  margin-right: 42px;
 }
 .footer {
   background-color: #282828;
@@ -981,38 +998,54 @@ font-face {
 .footer .content .list-icon i {
   opacity: 0.4;
   color: white;
-  margin: 15px;
+  margin: 20px;
+  margin-top: 14px;
+  margin-right: 21px;
 }
 .footer .menu {
   display: grid;
   padding-top: 63px;
   padding-bottom: 43px;
 }
+.footer .menu .col-lg12-3 {
+  width: 25%;
+}
 .footer .menu .item {
   margin-right: 16px;
-  font-size: 13px;
+  font-size: 14px;
   opacity: 0.4;
   color: white;
-  margin-bottom: 12px;
+  margin-left: 8px;
+  margin-bottom: 19px;
+  margin-top: 22px;
 }
 .footer .menu .item i {
   margin-right: 10px;
 }
 .footer .menu label {
   display: block;
+  margin-left: 8px;
+  font-size: 17px;
   color: white;
+  margin-top: 9px;
   margin-bottom: 21px;
 }
 .footer .copy-right {
   background-color: black;
   opacity: 0.4;
   color: white;
+  margin-top: -18px;
   font-size: 13px;
-  padding: 10px;
+  height: 40px;
+  padding: 6px;
   text-align: center;
 }
+.footer .copy-right .text {
+  margin-top: 8px;
+  font-size: 15px;
+}
 .product .wrapper {
-  margin: 30px auto;
+  margin: -26px auto;
   font-family: sans-serif;
   color: #555;
   font-size: 14px;
@@ -1034,42 +1067,55 @@ font-face {
 }
 .product .tabs li {
   float: left;
-  width: 20%;
+  width: 12.2%;
 }
 .product .tabs a {
+  margin-top: 8px;
+  font-size: 15px;
   display: block;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   color: #888;
-  padding: 20px 0;
+  padding: 19px 0px 12px 4px;
 }
 .product .tabs a:hover,
 .product .tabs a.active {
   border-bottom: 2px solid red;
   color: red;
 }
+.product .tabs a:nth-child(1) {
+  margin-left: -4px;
+}
+.product .tabs .sort-text {
+  margin-left: -14px !important;
+}
 .product .tabgroup .non-padding {
   padding: 0px 0px!important;
 }
 .product .tabgroup .list-product {
-  padding: 30px 0px;
+  margin-top: -48px;
+  padding: 38px 0px;
   width: 100%;
   display: inline-block;
 }
 .product .tabgroup .list-product .product-detail {
+  margin-top: 48px;
+  width: 22.82222222%;
   position: relative;
   text-align: center;
-  height: 321px;
+  height: 327px;
 }
 .product .tabgroup .list-product .product-detail img {
   margin-top: 20px;
+  height: 192px;
 }
 .product .tabgroup .list-product .product-detail .product-show-text {
-  margin-left: 28px;
-  margin-top: 20px;
+  margin-left: 29px;
+  margin-top: 35px;
 }
 .product .tabgroup .list-product .product-detail .product-show-text .title-product {
+  font-size: 15px;
   text-align: left;
   font-weight: bold;
 }
@@ -1138,6 +1184,8 @@ font-face {
   clear: both;
 }
 .content-box {
+  position: relative;
+  top: -89px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   display: inline-block;
 }
@@ -1145,7 +1193,7 @@ font-face {
   background-color: white;
 }
 .content-box .box-detail .box-data {
-  height: 253px;
+  height: 250px;
   width: 100%;
   margin-top: 0px;
 }
@@ -1156,14 +1204,15 @@ font-face {
   margin-top: 28px;
 }
 .content-box .box-detail .box-text .icon img {
-  width: 95px;
+  width: 110px;
 }
 .content-box .box-detail .box-text .box-content {
   opacity: 0.7;
-  font-size: 13px;
+  font-size: 14px;
   padding: 0px 42px;
 }
 .content-box .box-detail .box-text .box-title {
   margin: 18px;
+  font-size: 18px;
   font-weight: bold;
 }
