@@ -1,11 +1,17 @@
 .slider-footer{
     margin-top: 44px;
     margin-bottom: 32px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
 
     div{
         text-align: center;
         margin: auto;
+        width: 100%;
+        img{
+            width: 100%;
+        }
     }
     .list-icon{
 	        padding-bottom: 44px;
@@ -13,7 +19,6 @@
             font-size: 17px;
     }
     div{
-        margin-left: 27px;
-        margin-right: 42px;
+        
     }
 }

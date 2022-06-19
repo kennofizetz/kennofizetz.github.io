@@ -1,11 +1,28 @@
 const navMobile = document.querySelector(".nav-mobile");
+const navMobileZone = document.querySelector(".nav-mobile-fake-zone");
 
 const navBarsbtn = document.querySelector(".nav-bars-btn");
 
-navBarsbtn.addEventListener('click', () => {
-    navMobile.classList.toggle("active")
-});
+const navBarCloseBtn = document.querySelector("#btn-close-menu-mobile");
 
+navBarsbtn.addEventListener('click', () => {
+    navBarCloseBtn.classList.toggle('show');
+    navMobile.classList.toggle("active");
+    navMobileZone.classList.toggle("active");
+    navMobileZone.classList.toggle("show");
+});
+navMobileZone.addEventListener('click', () => {
+    navBarCloseBtn.classList.toggle('show');
+    navMobile.classList.toggle("active");
+    navMobileZone.classList.toggle("active");
+    navMobileZone.classList.toggle("show");
+});
+navBarCloseBtn.addEventListener('click', () => {
+    navBarCloseBtn.classList.toggle('show');
+    navMobile.classList.toggle("active");
+    navMobileZone.classList.toggle("active");
+    navMobileZone.classList.toggle("show");
+});
 
 $('.tabgroup > div').hide();
 // console.log($('.tabgroup > div'));
@@ -43,7 +60,7 @@ var testim = document.getElementById("testim"),
 ;
 
 window.onload = function() {
-
+    
     // Testim Script
     function playSlide(slide) {
         for (var k = 0; k < testimDots.length; k++) {
@@ -133,4 +150,20 @@ window.onload = function() {
         }
       
     })
+}
+
+
+
+
+
+window.addEventListener('resize', function(event) {
+    var width_sc = $(window).width();
+    
+}, true);
+
+
+function ChangeBackgroungImageOfTab(tabName, imagePrefix)
+{
+    var urlString = 'url(' + imagePrefix + ')';
+    document.getElementById(tabName).style.backgroundImage =  urlString;
 }
