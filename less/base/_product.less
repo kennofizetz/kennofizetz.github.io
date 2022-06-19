@@ -1,4 +1,5 @@
 .product{
+    margin-top: 64px;
     .wrapper {
         ul{
             border-bottom: 2px solid #ccc;
@@ -20,6 +21,7 @@
         font-size:16px;
     }
     .tabs {
+        margin-left: 4px;
         li {
             float:left;
             margin-right: 19px;
@@ -37,9 +39,9 @@
                 border-bottom: 2px solid red;
                 color: red;
             }
-        }
-        a:nth-child(1){
-            margin-left: -4px;
+            span{
+               margin-right: 5px;
+            }
         }
         .sort-text{
             
@@ -59,22 +61,28 @@
             width: 100%;
             display: inline-block;
 
+            .last-row{
+                margin-right: 0px!important;            
+            }
+
             .product-detail{
                 margin-top: 48px;
-                width: 22.82222222%;
-                padding: 0 8px;
+                padding: 0 0px;
                 position: relative;
+                margin-right: 41px;
                 text-align: center;
                 height: 327px;
 
                 img{
-                    margin-top: 20px;
-                    height: 192px;
+                    margin-top: -6px;
+                    margin-left: -10px;
+                    height: 242px;
+
                 }
 
                 .product-show-text{
-                    margin-left: 29px;
-                    margin-top: 35px;
+                    margin-left: 28px;
+                    margin-top: 12px;
 
                     .title-product{
                         font-size: 15px;
@@ -82,6 +90,7 @@
                         font-weight: bold;
                     }
                     .price{
+                        font-size:14px!important;
                         text-align: left;
                     }
                 }
@@ -96,12 +105,12 @@
                     margin-top: 20px;
                     
                     .item{
-                        margin-bottom: 11px;
+                        margin-bottom: 15px;
                         text-align: center;
                         background-color: white;
                         box-shadow: inset 0 0 0 2px #ccc;
                         i{
-                            padding: 9px 9px;
+                            padding: 10px 8px;
                         }
                         &:hover, &.active {
                             background-color: red;

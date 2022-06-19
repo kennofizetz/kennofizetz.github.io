@@ -33,7 +33,6 @@ body {
   font-family: "Poppins";
 }
 .text-bold {
-  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   position: relative;
@@ -717,10 +716,10 @@ body {
   height: 100%;
 }
 .banner #banner_img {
-  height: 900px;
+  height: 850px;
+  background-position-y: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   background-image: url(/img-new/Bg-banner.png);
 }
 .banner .img-banner {
@@ -765,12 +764,14 @@ body {
 }
 .content .content-slider {
   display: inline-block;
+  width: 100%;
   margin-bottom: 171px;
 }
 .content .content-slider .banner-inner .slider-left {
   margin-top: 142px;
 }
 .content .content-slider .banner-inner .slider-left .text-Dumbbell-shop h2 {
+  margin-left: -2px;
   font-size: 60px;
   color: white;
 }
@@ -778,6 +779,7 @@ body {
   margin-top: -57px;
 }
 .content .content-slider .banner-inner .slider-left .text-best-body h3 {
+  margin-left: -2px;
   font-size: 40px;
   color: white;
 }
@@ -788,6 +790,7 @@ body {
   opacity: 0.9;
 }
 .content .content-slider .banner-inner .slider-left .text-lorem .sub-title {
+  line-height: 1.63;
   margin-top: -10px;
   margin-right: 48px;
   color: white;
@@ -797,10 +800,10 @@ body {
 .content .content-slider .banner-inner .slider-left .btn-shopnow button {
   background: rgba(76, 175, 80, 0);
   width: 170px;
-  height: 51px;
+  height: 50px;
   color: white;
   font-size: 13px;
-  margin-top: 63px;
+  margin-top: 59px;
   border: 1px solid #ccc;
   opacity: 0.9;
   padding: 10px 20px;
@@ -834,12 +837,15 @@ font-face {
 }
 .customer-said {
   border-bottom: 2px solid #ccc;
-  padding-top: 71px;
+  padding-top: 50px;
 }
 .customer-said .title {
   text-align: center;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 36px!important;
+}
+.customer-said .title label {
+  font-size: 36px!important;
 }
 @-webkit-keyframes "testim-scale" {
   0% {
@@ -1285,15 +1291,17 @@ font-face {
   margin: 15px 0;
 }
 .customer-said .testim .cont div p {
-  padding-top: 4px;
+  padding-top: 2px;
+  padding-left: 1px;
   font-size: 15px;
   color: black;
   width: 80%;
   margin: auto;
 }
 .customer-said .testim .cont div .content {
-  padding-top: 22px;
-  font-size: 17px;
+  padding-top: 19px;
+  font-size: 18px;
+  max-width: 790px;
 }
 .customer-said .testim .cont div .name {
   font-size: 20px;
@@ -1367,7 +1375,8 @@ font-face {
   width: 100%;
 }
 .slider-footer div img {
-  width: 100%;
+  margin-top: -4px;
+  width: 73%;
 }
 .slider-footer .list-icon {
   padding-bottom: 44px;
@@ -1385,6 +1394,8 @@ font-face {
   margin-top: 99px;
 }
 .footer .content .text p {
+  line-height: 1.7;
+  max-width: 726px;
   font-size: 14px;
   margin: 0 auto;
   text-align: center;
@@ -1396,6 +1407,8 @@ font-face {
 .footer .content .list-icon {
   padding-bottom: 44px;
   margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 5px;
 }
 .footer .content .list-icon i {
   opacity: 0.4;
@@ -1423,11 +1436,13 @@ font-face {
 }
 .footer .menu label {
   display: block;
-  margin-left: 8px;
   font-size: 17px;
   color: white;
   margin-top: 9px;
   margin-bottom: 21px;
+}
+.footer .menu .col-lg12-3 {
+  margin-right: 10px;
 }
 .footer .copy-right {
   background-color: black;
@@ -1442,6 +1457,9 @@ font-face {
 .footer .copy-right .text {
   margin-top: 8px;
   font-size: 15px;
+}
+.product {
+  margin-top: 64px;
 }
 .product .wrapper {
   font-family: sans-serif;
@@ -1463,6 +1481,9 @@ font-face {
   margin: 20px 0;
   font-size: 16px;
 }
+.product .tabs {
+  margin-left: 4px;
+}
 .product .tabs li {
   float: left;
   margin-right: 19px;
@@ -1481,8 +1502,8 @@ font-face {
   border-bottom: 2px solid red;
   color: red;
 }
-.product .tabs a:nth-child(1) {
-  margin-left: -4px;
+.product .tabs a span {
+  margin-right: 5px;
 }
 .product .tabgroup .non-padding {
   padding: 0px 0px!important;
@@ -1493,21 +1514,25 @@ font-face {
   width: 100%;
   display: inline-block;
 }
+.product .tabgroup .list-product .last-row {
+  margin-right: 0px!important;
+}
 .product .tabgroup .list-product .product-detail {
   margin-top: 48px;
-  width: 22.82222222%;
-  padding: 0 8px;
+  padding: 0 0px;
   position: relative;
+  margin-right: 41px;
   text-align: center;
   height: 327px;
 }
 .product .tabgroup .list-product .product-detail img {
-  margin-top: 20px;
-  height: 192px;
+  margin-top: -6px;
+  margin-left: -10px;
+  height: 242px;
 }
 .product .tabgroup .list-product .product-detail .product-show-text {
-  margin-left: 29px;
-  margin-top: 35px;
+  margin-left: 28px;
+  margin-top: 12px;
 }
 .product .tabgroup .list-product .product-detail .product-show-text .title-product {
   font-size: 15px;
@@ -1515,6 +1540,7 @@ font-face {
   font-weight: bold;
 }
 .product .tabgroup .list-product .product-detail .product-show-text .price {
+  font-size: 14px!important;
   text-align: left;
 }
 .product .tabgroup .list-product .product-detail .menu-show-hover {
@@ -1527,13 +1553,13 @@ font-face {
   margin-top: 20px;
 }
 .product .tabgroup .list-product .product-detail .menu-show-hover .item {
-  margin-bottom: 11px;
+  margin-bottom: 15px;
   text-align: center;
   background-color: white;
   box-shadow: inset 0 0 0 2px #ccc;
 }
 .product .tabgroup .list-product .product-detail .menu-show-hover .item i {
-  padding: 9px 9px;
+  padding: 10px 8px;
 }
 .product .tabgroup .list-product .product-detail .menu-show-hover .item:hover,
 .product .tabgroup .list-product .product-detail .menu-show-hover .item.active {
@@ -1580,6 +1606,7 @@ font-face {
 }
 .content-box {
   position: relative;
+  margin-top: 62px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   display: inline-block;
 }
@@ -1587,7 +1614,7 @@ font-face {
   background-color: white;
 }
 .content-box .box-detail .box-data {
-  height: 250px;
+  height: 251px;
   width: 100%;
   margin-top: 0px;
 }
@@ -1597,19 +1624,22 @@ font-face {
 .content-box .box-detail .box-text .icon {
   height: 70px;
   margin-bottom: 23px;
-  margin-top: 23px;
+  margin-top: 33px;
 }
 .content-box .box-detail .box-text .icon img {
   height: 70px;
   object-fit: cover;
 }
 .content-box .box-detail .box-text .box-content {
+  margin-right: 49px;
+  line-height: 1.63;
+  margin-left: 49px;
   margin-bottom: 23px;
   opacity: 0.7;
   font-size: 14px;
 }
 .content-box .box-detail .box-text .box-title {
-  margin: 0px 0px 18px 0px;
+  margin: -2px 0px 18px 0px;
   font-size: 18px;
   font-weight: bold;
 }
