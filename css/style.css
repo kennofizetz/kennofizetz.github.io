@@ -710,6 +710,18 @@ body {
     display: none;
   }
 }
+@media (max-width: 1024px) {
+  .banner #banner_img {
+    height: 700px!important;
+  }
+  .slider-left {
+    margin-top: 101px!important;
+    width: 60%!important;
+  }
+  .content-slider {
+    margin-bottom: 0px!important;
+  }
+}
 @media (max-width: 478px) {
   .banner #banner_img {
     height: 600px!important;
