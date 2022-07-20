@@ -1,0 +1,222 @@
+.tzcountdown{
+    padding: 60px 0 65px;
+    background: var(--pricingTable-blue);
+}
+
+.tzcountdown-left{
+    padding-top: 15px;
+}
+
+.tzcountdown-icon{
+    color: #fff;
+    font-size: 42px;
+    line-height: 50.4px;
+    padding: 25px 0 0;
+    margin: 0;
+    display: block;float: left;
+}
+
+.tzcountdown-ds{
+    padding-left: 63px;
+    font-size: 14px;
+    line-height: 30.8px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.tzcountdown-ds span{
+    font-size: 20px;
+    line-height: 34px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.tzcountdownitem{
+    width: 125px;
+    height: 125px;
+    border: 1px solid #eaa8ba;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0 0 0;
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+
+.tzcountdownitem:hover{
+    background: #e289a1;
+    border-color: #e289a1;
+    cursor: pointer;
+}
+
+.tzcountdownitem span{
+    font-size: 25px;
+    line-height: 33px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.tzcountdownitem p{
+    font-size: 11px;
+    line-height: 24px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/*------Count Down style 2----*/
+.tzcountdown2{
+    padding: 32px 0 82px;
+    background: #d65679;
+}
+
+.tzcountdown2 .countdown{
+    padding-top: 35px;
+}
+
+.tzcount_title{
+    display: block;
+    font-size: 17px;
+    line-height: 54.4px;
+    margin: 0 0 20px;
+    padding: 5px 0 10px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.tzcount_title:after{
+    background: none repeat scroll 0 0 #fff;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    width: 70px;
+}
+
+.tzcount-ds{
+    display: block;
+    font-size: 16px;
+    line-height: 51.2px;
+    margin: 0;
+    padding: 17px 0 0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tzcountdown2 .tzcountdownitem span {
+    color: #fff;
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+/*------Count Down style 3----*/
+.tzcountdown3{
+    position: relative;
+    background: #d65679;
+}
+
+.tzcountdown3:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.tzcount-left{
+    width: 40%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    overflow: hidden;
+    background-color: #d65679;
+    text-align: center;
+    padding: 86px 0 80px;
+}
+
+.tzcountdown3 .tzcount-right{
+
+    width: 60%;
+    float: left;
+    min-height: 100px;
+}
+
+.tzcountdown3 .tzcountdown-icon2 {
+    color: #444444;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.tzcountdown-ds2{
+    display: block;
+    font-size: 14px;
+    line-height: 25.2px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: #444444;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tzcountdown-ds2 span {
+    color: #d65679;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.tzdown3-item{
+    width: 25%;
+    float: left;
+    padding: 67px 0 0;
+}
+
+.tzcount-right{
+    max-width: 990px;
+    padding: 0 50px;
+    width: 100%;
+}
+
+.tzcountdown3 .tzcountdownitem span {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.tzcountdown3 .tzcount-ds{
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 35.2px;
+    margin: 0;
+    padding: 8px 0 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}

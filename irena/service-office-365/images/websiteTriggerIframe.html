@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0067)https://fx416.infusionsoft.app/app/webTracking/websiteTriggerIframe -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Infusionsoft WebsiteTrigger</title>
+    <script type="text/javascript">
+        document.onreadystatechange = function() {
+            if (document.readyState === 'complete') {
+                var contactId = document.querySelector('#contactId').value || 0;
+                var event = {
+                    eventName: 'inf-website-trigger-contact-event',
+                    contactId: contactId
+                };
+
+                window.parent.postMessage(JSON.stringify(event), '*');
+            }
+        };
+    </script>
+<script async="" src="./invisible.js.tải xuống"></script></head>
+<body>
+<input type="hidden" id="contactId" value="">
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'7093ffafdde5c6b4',m:'Qxs1wJFb3rkKn74syHDxrpDjYOEBSXN.sYHe9mZj1WY-1652199590-0-Aem6NCvKojGBQqb9fVNV6yZwEFGOmpJErrWf8cH/4hz2JI71+dEwq4m4stv/wA69Z89gTTATn08I/T5/uxm7XuPYUTLdnzryxuEVXuv5Vr7BIHoM6teosSipn77qnVqbKpTu3Yb58JJKVTLv81liGVFjfdJn5ikVnI/y354Pg0O+',s:[0x71a9d20209,0xc99a1fe493],u:'/cdn-cgi/challenge-platform/h/b'}})();</script>
+
+</body></html>
